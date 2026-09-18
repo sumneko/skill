@@ -1,0 +1,14 @@
+{
+  "_comment": "项目侧同步清单：记录本项目里的通用能力来自哪个仓库、哪个提交。复制到项目根目录后按实际内容填写，用于正向更新与反向合并时判断差异来源。",
+  "source": "https://github.com/sumneko/skill",
+  "syncedAt": "YYYY-MM-DD",
+  "syncedCommit": "<本次同步时源仓库的提交短哈希>",
+  "items": {
+    "<skill-name>": {
+      "source": "skills/<分类>/<skill-name>",
+      "commit": "<复制该条目时源仓库的提交短哈希>",
+      "locallyModified": false,
+      "_note": "locallyModified 表示该项目里这份内容相对源仓库是否被改动过。回传前必须先 diff；为 true 时只把与项目无关的通用改进回传。"
+    }
+  }
+}
