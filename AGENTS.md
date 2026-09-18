@@ -37,7 +37,7 @@
 1. **获取内容**：`git clone https://github.com/sumneko/skill.git <临时目录>`（仓库公开，也可直接按需读取远程文件），用完删除临时目录。
 2. **挑选**：根据项目性质（语言、平台、协作范围）从「能力索引」里选。带强烈个人色彩的条目（如文档语言、个人命名偏好）在不匹配的项目里不要复制。
 3. **复制**：按下方映射表复制到项目。
-4. **登记**：把 `templates/sync-manifest.json` 复制到项目，按实际内容填写；并在项目的 `AGENTS.md`（没有就创建）里登记来源。
+4. **登记**：把 `templates/sync-manifest.json` 复制到项目的 `.agents/sync-manifest.json`，按实际内容填写；并在项目的 `AGENTS.md`（没有就创建）里登记来源。
 
 ### 复制映射
 

@@ -37,9 +37,9 @@ Copy-Item $env:TEMP\skill\skills\tooling\powershell-safe-invocation `
 
 注意：复制到 `.agents/skills/` 时**要去掉分类层级**（`tooling/` 等），目录名必须等于 `SKILL.md` 里的 `name`。
 
-**更新能力**：改本仓库 → 正向复制到目标项目 → 更新项目的 `sync-manifest.json`。
+**更新能力**：改本仓库 → 正向复制到目标项目 → 更新项目的 `.agents/sync-manifest.json`。
 
-**收回项目里的改进**：读项目 manifest，对 `locallyModified: true` 的条目先 diff，只回传通用改进，项目专属内容留在项目里。
+**收回项目里的改进**：读项目清单 `.agents/sync-manifest.json`，对 `locallyModified: true` 的条目先 diff，只回传通用改进，项目专属内容留在项目里。
 
 ## 收录标准
 
